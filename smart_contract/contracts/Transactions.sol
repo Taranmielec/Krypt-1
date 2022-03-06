@@ -30,7 +30,7 @@ contract Transactions {
      function getAllTransactions() public view returns (TransferStruct [] memory) {
          return transactions;
      }
-     function getTransactionsCount() public view returns (uint256) {
+     function getTransactionCount() public view returns (uint256) {
          return transactionCount;
      }
 }
